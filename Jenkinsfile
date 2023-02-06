@@ -24,7 +24,7 @@ pipeline {
                    sh 'docker login -u amaniem -p ${dockerhubpwd}'
 
 }
-                   sh 'docker push amaniem/Devops'
+                   sh 'docker push amaniem/devops'
                 }
             }
         }
