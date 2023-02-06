@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.javatechie</groupId>
-    <artifactId>Devops</artifactId>
+    <artifactId>devops</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Devops</name>
+    <name>devops</name>
     <description>Demo project for Devops</description>
     <properties>
         <java.version>1.8</java.version>
