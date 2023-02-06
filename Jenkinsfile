@@ -32,7 +32,7 @@ pipeline {
             steps{
                 script{
                    // kubernetesDeploy (configs: 'deployment.yaml',kubeconfigId: 'k8sconfigpwd')
-                    'sh kubectl apply -f deployment.yaml'
+                    'sh kubectl apply -f deployment.yml'
                 }
             }
         }
