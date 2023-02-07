@@ -32,7 +32,7 @@ pipeline {
             steps{
                 script{
                    
-                    sh 'kubectl apply -f ${WORKSPACE}/deployment.yml --kubeconfig=/home/aman/IdeaProjects/Devops/kubeconf'
+                    sh 'kubectl apply -f ${WORKSPACE}/deployment.yml --kubeconfig=${WORKSPACE}/kubeconf'
                 }
             }
         }
